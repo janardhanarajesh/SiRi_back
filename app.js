@@ -2,8 +2,8 @@ import express from "express"
 import bodyParser from "body-parser"
 import cors from "cors"
 import mongoose from "mongoose"
-import User from "./models/user"
-import Note from "./models/note"
+import User from "./models/user.js"
+import Note from "./models/note.js"
 const app=express()
 app.use(cors())
 app.use(bodyParser.json())
